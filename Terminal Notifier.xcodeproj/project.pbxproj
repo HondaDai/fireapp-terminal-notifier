@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5199791415B1F92B003AFC57 /* terminal-notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "terminal-notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5199791415B1F92B003AFC57 /* Fire.app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fire.app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5199791815B1F92B003AFC57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5199791B15B1F92B003AFC57 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5199791C15B1F92B003AFC57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		5199791515B1F92B003AFC57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5199791415B1F92B003AFC57 /* terminal-notifier.app */,
+				5199791415B1F92B003AFC57 /* Fire.app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			);
 			name = "terminal-notifier";
 			productName = "Terminal Notifier";
-			productReference = 5199791415B1F92B003AFC57 /* terminal-notifier.app */;
+			productReference = 5199791415B1F92B003AFC57 /* Fire.app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -266,7 +266,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Terminal Notifier/Terminal Notifier-Prefix.pch";
 				INFOPLIST_FILE = "Terminal Notifier/Terminal Notifier-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Fire.app;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -279,7 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Terminal Notifier/Terminal Notifier-Prefix.pch";
 				INFOPLIST_FILE = "Terminal Notifier/Terminal Notifier-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Fire.app;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
