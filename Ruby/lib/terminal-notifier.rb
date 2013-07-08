@@ -1,5 +1,5 @@
 module TerminalNotifier
-  BIN_PATH = File.expand_path('../../vendor/terminal-notifier/terminal-notifier.app/Contents/MacOS/terminal-notifier', __FILE__)
+  BIN_PATH = File.expand_path('../../vendor/fireapp-notifier/fireapp-notifier.app/Contents/MacOS/Fire.app', __FILE__)
 
   class UnsupportedPlatformError < StandardError; end
   # Returns wether or not the current platform is Mac OS X 10.8, or higher.

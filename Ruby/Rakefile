@@ -6,7 +6,7 @@ def version
 end
 
 def filename
-  "terminal-notifier_#{version}"
+  "fireapp-notifier_#{version}"
 end
 
 def zipfile
@@ -18,17 +18,17 @@ task :clean do
   rm_rf "vendor"
 end
 
-task :update_build do
-  unless File.exist?(zipfile)
-    sh "curl -O 'http://cloud.github.com/downloads/alloy/terminal-notifier/terminal-notifier_#{version}.zip'"
-  end
-
-  rm_rf "vendor"
-  mkdir "vendor"
-
-  sh "unzip -o -d vendor #{zipfile}"
-  mv "vendor/#{filename}", "vendor/terminal-notifier"
-end
+#task :update_build do
+#  unless File.exist?(zipfile)
+#    sh "curl -O 'http://cloud.github.com/downloads/alloy/terminal-notifier/terminal-notifier_#{version}.zip'"
+#  end
+#
+#  rm_rf "vendor"
+#  mkdir "vendor"
+#
+#  sh "unzip -o -d vendor #{zipfile}"
+#  mv "vendor/#{filename}", "vendor/terminal-notifier"
+#end
 
 desc "Build gem"
 task :gem => :update_build do
