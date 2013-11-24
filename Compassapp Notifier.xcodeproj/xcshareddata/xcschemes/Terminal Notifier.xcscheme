@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5199791315B1F92B003AFC57"
-               BuildableName = "terminal-notifier.app"
+               BuildableName = "compass.app.app"
                BlueprintName = "terminal-notifier"
-               ReferencedContainer = "container:Terminal Notifier.xcodeproj">
+               ReferencedContainer = "container:Compassapp Notifier.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5199791315B1F92B003AFC57"
-            BuildableName = "terminal-notifier.app"
+            BuildableName = "compass.app.app"
             BlueprintName = "terminal-notifier"
-            ReferencedContainer = "container:Terminal Notifier.xcodeproj">
+            ReferencedContainer = "container:Compassapp Notifier.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5199791315B1F92B003AFC57"
-            BuildableName = "terminal-notifier.app"
+            BuildableName = "compass.app.app"
             BlueprintName = "terminal-notifier"
-            ReferencedContainer = "container:Terminal Notifier.xcodeproj">
+            ReferencedContainer = "container:Compassapp Notifier.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -112,9 +112,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5199791315B1F92B003AFC57"
-            BuildableName = "terminal-notifier.app"
+            BuildableName = "compass.app.app"
             BlueprintName = "terminal-notifier"
-            ReferencedContainer = "container:Terminal Notifier.xcodeproj">
+            ReferencedContainer = "container:Compassapp Notifier.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

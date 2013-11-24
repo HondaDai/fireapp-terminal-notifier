@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35750AFD1841BB8700FCB49C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35750AFC1841BB8700FCB49C /* Images.xcassets */; };
 		5199791915B1F92B003AFC57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199791815B1F92B003AFC57 /* Cocoa.framework */; };
 		5199792315B1F92B003AFC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5199792115B1F92B003AFC57 /* InfoPlist.strings */; };
 		5199792515B1F92B003AFC57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5199792415B1F92B003AFC57 /* main.m */; };
@@ -18,15 +19,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5199791415B1F92B003AFC57 /* Fire.app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fire.app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35750AFC1841BB8700FCB49C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "terminal-notifier/Images.xcassets"; sourceTree = "<group>"; };
+		5199791415B1F92B003AFC57 /* compassapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compassapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5199791815B1F92B003AFC57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5199791B15B1F92B003AFC57 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5199791C15B1F92B003AFC57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5199791D15B1F92B003AFC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5199792015B1F92B003AFC57 /* Terminal Notifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Terminal Notifier-Info.plist"; sourceTree = "<group>"; };
+		5199792015B1F92B003AFC57 /* Compassapp Notifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Compassapp Notifier-Info.plist"; sourceTree = "<group>"; };
 		5199792215B1F92B003AFC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5199792415B1F92B003AFC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5199792615B1F92B003AFC57 /* Terminal Notifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Terminal Notifier-Prefix.pch"; sourceTree = "<group>"; };
+		5199792615B1F92B003AFC57 /* Compassapp Notifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Compassapp Notifier-Prefix.pch"; sourceTree = "<group>"; };
 		5199792815B1F92B003AFC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5199792A15B1F92B003AFC57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5199792B15B1F92B003AFC57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		5199790915B1F92B003AFC57 = {
 			isa = PBXGroup;
 			children = (
+				35750AFC1841BB8700FCB49C /* Images.xcassets */,
 				5199794B15B302F1003AFC57 /* Terminal.icns */,
 				5199794115B2F908003AFC57 /* ScriptingBridge.framework */,
 				5199791E15B1F92B003AFC57 /* Terminal Notifier */,
@@ -62,7 +65,7 @@
 		5199791515B1F92B003AFC57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5199791415B1F92B003AFC57 /* Fire.app.app */,
+				5199791415B1F92B003AFC57 /* compassapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,10 +103,10 @@
 		5199791F15B1F92B003AFC57 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5199792015B1F92B003AFC57 /* Terminal Notifier-Info.plist */,
+				5199792015B1F92B003AFC57 /* Compassapp Notifier-Info.plist */,
 				5199792115B1F92B003AFC57 /* InfoPlist.strings */,
 				5199792415B1F92B003AFC57 /* main.m */,
-				5199792615B1F92B003AFC57 /* Terminal Notifier-Prefix.pch */,
+				5199792615B1F92B003AFC57 /* Compassapp Notifier-Prefix.pch */,
 				5199792715B1F92B003AFC57 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -126,7 +129,7 @@
 			);
 			name = "terminal-notifier";
 			productName = "Terminal Notifier";
-			productReference = 5199791415B1F92B003AFC57 /* Fire.app.app */;
+			productReference = 5199791415B1F92B003AFC57 /* compassapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +141,7 @@
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Eloy Durán";
 			};
-			buildConfigurationList = 5199790E15B1F92B003AFC57 /* Build configuration list for PBXProject "Terminal Notifier" */;
+			buildConfigurationList = 5199790E15B1F92B003AFC57 /* Build configuration list for PBXProject "Compassapp Notifier" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5199792315B1F92B003AFC57 /* InfoPlist.strings in Resources */,
+				35750AFD1841BB8700FCB49C /* Images.xcassets in Resources */,
 				5199792915B1F92B003AFC57 /* Credits.rtf in Resources */,
 				5199792F15B1F92B003AFC57 /* MainMenu.xib in Resources */,
 				5199794C15B302F1003AFC57 /* Terminal.icns in Resources */,
@@ -264,9 +268,9 @@
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Terminal Notifier/Terminal Notifier-Prefix.pch";
-				INFOPLIST_FILE = "Terminal Notifier/Terminal Notifier-Info.plist";
-				PRODUCT_NAME = Fire.app;
+				GCC_PREFIX_HEADER = "Terminal Notifier/Compassapp Notifier-Prefix.pch";
+				INFOPLIST_FILE = "Terminal Notifier/Compassapp Notifier-Info.plist";
+				PRODUCT_NAME = compassapp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -277,9 +281,9 @@
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Terminal Notifier/Terminal Notifier-Prefix.pch";
-				INFOPLIST_FILE = "Terminal Notifier/Terminal Notifier-Info.plist";
-				PRODUCT_NAME = Fire.app;
+				GCC_PREFIX_HEADER = "Terminal Notifier/Compassapp Notifier-Prefix.pch";
+				INFOPLIST_FILE = "Terminal Notifier/Compassapp Notifier-Info.plist";
+				PRODUCT_NAME = compassapp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -287,7 +291,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5199790E15B1F92B003AFC57 /* Build configuration list for PBXProject "Terminal Notifier" */ = {
+		5199790E15B1F92B003AFC57 /* Build configuration list for PBXProject "Compassapp Notifier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5199793015B1F92B003AFC57 /* Debug */,
